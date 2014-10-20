@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+  <container path="com.genuitec.runtime.library/com.genuitec.hibernate_4.1">
+    <disable name="antlr-2.7.7.jar" type="custom_jar"/>
+    <disable name="javassist-3.11.0.GA.jar" type="custom_jar"/>
+    <disable name="slf4j-api-1.5.8.jar" type="custom_jar"/>
+    <disable name="hibernate-commons-annotations-4.0.5.Final.jar" type="custom_jar"/>
+    <disable name="dom4j-1.6.1.jar" type="custom_jar"/>
+    <custom-jar path="lib/home/beiying/Downloads/web_dev_tool/hibernate-release-4.3.6.Final/lib/User Library/jta-1.1.jar"/>
+    <custom-jar path="lib/home/beiying/Downloads/web_dev_tool/hibernate-release-4.3.6.Final/lib/User Library/javassist-3.11.0.GA.jar"/>
+    <custom-jar path="lib/home/beiying/Downloads/web_dev_tool/hibernate-release-4.3.6.Final/lib/User Library/antlr-2.7.7.jar"/>
+    <custom-jar path="lib/home/beiying/Downloads/web_dev_tool/hibernate-release-4.3.6.Final/lib/User Library/log4j.jar"/>
+    <custom-jar path="lib/home/beiying/Downloads/web_dev_tool/hibernate-release-4.3.6.Final/lib/User Library/commons-collections-3.1.jar"/>
+    <custom-jar path="lib/home/beiying/Downloads/web_dev_tool/hibernate-release-4.3.6.Final/lib/User Library/slf4j-log4j12.jar"/>
+    <custom-jar path="lib/home/beiying/Downloads/web_dev_tool/hibernate-release-4.3.6.Final/lib/User Library/mysql-connector-java-5.1.7-bin.jar"/>
+    <custom-jar path="lib/home/beiying/Downloads/web_dev_tool/hibernate-release-4.3.6.Final/lib/User Library/slf4j-api-1.5.8.jar"/>
+    <custom-jar path="lib/home/beiying/Downloads/web_dev_tool/hibernate-release-4.3.6.Final/lib/User Library/hibernate-commons-annotations-4.0.5.Final.jar"/>
+    <custom-jar path="lib/home/beiying/Downloads/web_dev_tool/hibernate-release-4.3.6.Final/lib/User Library/dom4j-1.6.1.jar"/>
+    <custom-jar path="lib/home/beiying/Downloads/web_dev_tool/hibernate-release-4.3.6.Final/lib/User Library/c3p0-0.9.1.2.jar"/>
+    <custom-jar path="lib/home/beiying/Downloads/web_dev_tool/hibernate-release-4.3.6.Final/lib/User Library/hibernate3.jar"/>
+  </container>
+</project>

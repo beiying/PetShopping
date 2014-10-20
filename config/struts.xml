@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<!-- structs2的核心配置文件，在应用部署的时候加载并解析 -->
+<!--  -->
+<struts>
+
+	<!-- struts与Spring的整合:Spring管理Action,从而实现Action与Service解耦 
+	
+	注意:添加jar包的时候要刷新tomcat中项目
+	1:添加整合jar包,替换默认创建Action的工厂类,StrutsSpringObjectFactory创建action是从spring容器中
+	2:添加监听器,监听器用来加载Spring配置文件,并且吧Spring配置文件存储到application内置对象中
+		默认会在WEB-INF/applicationContext.xml 如果要改变位置则配置参数
+	3:修改action中class属性,与Spring中配置的action的id相同
+	-->
+	<!-- struts默认拦截器 -->
+	<package name="petshop" extends="struts-default">
+		<action name="testAction_*" class="com.beiying.petshop.action.TestAction" method="execute">
+			<result>/index.jsp</result>
+		</action>
+	</package>
+	
+</struts>
