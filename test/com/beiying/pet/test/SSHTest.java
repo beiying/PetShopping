@@ -11,7 +11,7 @@ public class SSHTest {
 	 */
 	@Test
 	public void spring(){
-		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext-*.xml");
 		System.out.println(context.getBean("date"));
 		
 		
@@ -21,6 +21,6 @@ public class SSHTest {
 	 */
 	@Test
 	public void hibernate(){
-		System.out.println(HibernateSessionFactory.getSession());
+//		System.out.println(HibernateSessionFactory.getSession());
 	}
 }

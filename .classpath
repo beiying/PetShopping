@@ -23,17 +23,12 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring3-Core"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.hibernate_4.1">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="WEB-INF/lib"/>
-			<attribute name="owner.project.facets" value="me.hibernate"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring3-AOP"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring3-Persistence-Core"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/c3p0"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/struts2.3"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring3-Web"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/struts-spring-plugin-2.1.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate3.6"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>

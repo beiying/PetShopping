@@ -1,17 +1,20 @@
 #MyEclipse Hibernate Properties
-#Tue Oct 14 20:29:21 CST 2014
-genVersionTag=false
-sessionFactoryName=com.beiying.pet.test.HibernateSessionFactory
-genAnnotations=false
-configFile=/PetShopping/src/hibernate.cfg.xml
-reStrategyClass=
-sessionFactoryId=
-profile=
-detectM2M=false
+#Tue Oct 21 23:00:11 CST 2014
 genBasicCompId=false
-keyGenerator=
-createConfigFile=true
-basePersistenceClass=
+sessionFactoryName=
+profile=
+daoSFId=
+jndiPath=
+detectM2M=false
+reStrategyClass=
 detectO2O=false
+springDaoFile=
 useJavaTypes=true
-reSettingsFile=
+keyGenerator=
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=/PetShopping/hibernate.reveng.xml
+configFile=/PetShopping/src/hibernate.cfg.xml
+createConfigFile=true
