@@ -6,8 +6,8 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 	
 	
-	<!-- <bean id="testAction" class="com.beiying.petshop.action.TestAction">
-		<property name="categoryServiceImpl" ref="categoryServiceImpl"></property>
-	</bean> -->
+	<bean id="accountAction" class="com.beiying.petshop.action.AccountAction" scope="prototype">
+		<property name="accountService" ref="accountService"></property>
+	</bean>
 	
 </beans>

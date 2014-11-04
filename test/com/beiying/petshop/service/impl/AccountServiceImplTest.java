@@ -1,13 +1,10 @@
 package com.beiying.petshop.service.impl;
 
-import static org.junit.Assert.*;
-
 import java.util.List;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.beiying.petshop.pojo.Account;

@@ -16,8 +16,11 @@
 	-->
 	<!-- struts默认拦截器 -->
 	<package name="petshop" extends="struts-default">
-		<action name="testAction_*" class="com.beiying.petshop.action.TestAction" method="execute">
-			<result>/index.jsp</result>
+		<global-results>
+			<result name="main">/admin/main.jsp</result>
+		</global-results>
+		<action name="accountAction_*" class="accountAction" method="{1}">
+			<result name="queryAccount">/admin/account/queryAccount.jsp</result>
 		</action>
 	</package>
 	
